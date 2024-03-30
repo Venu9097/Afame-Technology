@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    background-color: #6c6c6cf0;
+    transition: background-color 0.3s;
+}
+.logo img{
+    height: 50px;
+    width: 100px;
+}
+.navlink{
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+}
+.navlink a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s ease-in-out;
+    text-align: center;
+    text-shadow: 5px 5px #0000001a;
+    font-weight: 500;
+}
+.navlink a:hover{
+    transform: scale(1.1);
+}
+.hero{
+    /* background-color: black; */
+    /* height: 655px; */
+    background-image: url(./LOGO/hero_wall.jpeg);
+    min-height: 93vh;
+    background-size: cover;
+}
+.social_media{
+    left: 1310px;
+}
+.hero_text{
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+}
+.hero_text h1{
+    color: #ffffff;
+    font-size: 70px;
+}
+.hero_text h3{
+    color: #ffffff;
+    font-size: 35px;  
+    margin-left: 50px; 
+}
+.active_nav{
+    background-color: #fffffff0;    
+    box-shadow: -0px 5px 20px #d1e5ec94;
+    transition: 500ms ease-in;
+}
+.active_nav .navlink a{
+    color: rgb(0, 0, 0);
+}
+.about_img{
+    background-image: url(./LOGO/venu.jpg);
+    height: 80vh;
+    background-size: cover;
+    border-radius: 5px;
+}
+.about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about_text{
+    width: 40%;
+}
+.progress{
+    margin: 15px;
+    height: 13px;
+}
+.cards img{
+    width: 33%;
+    height: 300px;
+}
+.project h1, .project{
+    margin-bottom: 20px;
+}
+.cards img:hover{
+    border: 3px black solid;
+    transition: transform 0.5s ease;
+}
+.box1{
+    height: 170px;
+    width: 240px;
+    margin: 30px;
+    flex-wrap: wrap;
+    box-shadow: 20px 20px 20px #00000017;
+}
+.forms{
+    height: 450px;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 20px 20px 20px 20px #0000001a;
+    padding-top: 20px;
+}
+.inputs{
+    margin: 30px;
+    
+}
+.footer{
+    height: 60px;
+    width: 100;
+    background-color: rgb(81, 81, 81);
+    color: white;
+    padding-top: 20px;
+    width: 100%;
+}
